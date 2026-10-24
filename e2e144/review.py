@@ -13,3 +13,7 @@ def shout(name: str) -> str:
 
 def whisper(name: str) -> str:
     return greet(name).lower()
+
+
+def echo(name: str) -> str:
+    return name
