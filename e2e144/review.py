@@ -5,3 +5,7 @@ def greet(name: str) -> str:
 
 def farewell(name: str) -> str:
     return f"bye, {name}"
+
+
+def shout(name: str) -> str:
+    return greet(name).upper()
